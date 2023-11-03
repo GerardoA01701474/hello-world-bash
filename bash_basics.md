@@ -3,7 +3,7 @@
 Bash (Bourne Again SHell) es un intérprete de comandos y un lenguaje de scripting utilizado en sistemas operativos Unix y Unix-like, incluyendo Linux. Permite a los usuarios interactuar con el sistema operativo mediante comandos y scripts.
 
 ## Comandos Básicos
-
+___
 ### `echo`
 
 Muestra mensajes en la salida estándar.
@@ -11,7 +11,7 @@ Muestra mensajes en la salida estándar.
 ```bash
 echo "Hello, World!"
 ```
-
+___
 ### `export`
 
 Establece variables de entorno para que estén disponibles para los procesos secundarios.
@@ -197,7 +197,14 @@ Representa el directorio de inicio del usuario.
 ```bash
 cd ~/Documentos
 ```
+### Comando `read -p`
 
+Lee la entrada del usuario con un mensaje de prompt personalizado.
+
+```bash
+read -p "Ingrese su nombre: " nombre
+echo "Hola, $nombre!"
+```
 Cambia al directorio `Documentos` en el directorio de inicio del usuario.
 
 Estos comandos y símbolos adicionales son útiles en Bash para realizar diversas operaciones y manipulaciones de archivos y directorios. Puedes explorar más sobre estos y otros comandos en la documentación oficial de Bash o en recursos de aprendizaje en línea.
