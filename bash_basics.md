@@ -8,9 +8,9 @@ Bash (Bourne Again SHell) es un intérprete de comandos y un lenguaje de scripti
 
 Muestra mensajes en la salida estándar.
 
-\```bash
+```bash
 echo "Hello, World!"
-\```
+```
 
 ### `export`
 
