@@ -208,6 +208,18 @@ echo "Hola, $nombre!"
 ```
 Cambia al directorio `Documentos` en el directorio de inicio del usuario.
 
+___
+### Redirección de Errores
+
+Puedes redirigir los mensajes de error a `/dev/null` para descartarlos.
+
+```bash
+comando_que_puede_generar_error 2>/dev/null
+```
+
+En este ejemplo, `2>` redirige los errores estándar (stderr) al dispositivo `/dev/null`, que es un dispositivo especial en sistemas Unix y Unix-like que descarta toda la salida que recibe. Esto significa que los mensajes de error generados por `comando_que_puede_generar_error` serán descartados y no se mostrarán en la salida estándar o en la terminal.
+
+
 Estos comandos y símbolos adicionales son útiles en Bash para realizar diversas operaciones y manipulaciones de archivos y directorios. Puedes explorar más sobre estos y otros comandos en la documentación oficial de Bash o en recursos de aprendizaje en línea.
 
 
