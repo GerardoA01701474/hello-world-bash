@@ -16,17 +16,17 @@ echo "Hello, World!"
 
 Establece variables de entorno para que estén disponibles para los procesos secundarios.
 
-    \```bash
-    export VARIABLE="Valor"
-    \```
+```bash
+export VARIABLE="Valor"
+```
 
 ### `cd`
 
 Cambia el directorio actual.
 
-\```bash
+```bash
 cd /ruta/al/directorio
-\```
+```
 
 ## Redirección y Tuberías
 
@@ -34,25 +34,25 @@ cd /ruta/al/directorio
 
 Redirige la salida de un comando a un archivo (sobrescribe el archivo existente).
 
-\```bash
+```bash
 echo "Contenido del archivo" > archivo.txt
-\```
+```
 
 ### `>>`
 
 Redirige la salida de un comando a un archivo (agrega al final del archivo).
 
-\```bash
+```bash
 echo "Nuevo contenido" >> archivo.txt
-\```
+```
 
 ### `|`
 
 Tubería (pipe). Permite enviar la salida de un comando como entrada a otro comando.
 
-\```bash
+```bash
 ls -l | grep "archivo"
-\```
+```
 
 ## Operadores Lógicos
 
@@ -60,17 +60,17 @@ ls -l | grep "archivo"
 
 AND lógico. Ejecuta el segundo comando solo si el primero tiene éxito.
 
-\```bash
+```bash
 comando1 && comando2
-\```
+```
 
 ### `||`
 
 OR lógico. Ejecuta el segundo comando solo si el primero falla.
 
-\```bash
+```bash
 comando1 || comando2
-\```
+```
 
 ## Variables
 
@@ -78,10 +78,10 @@ comando1 || comando2
 
 Se utiliza para acceder al valor de una variable.
 
-\```bash
+```bash
 nombre="Usuario"
 echo "Hola, $nombre!"
-\```
+```
 
 ## Control de Flujo
 
@@ -89,32 +89,32 @@ echo "Hola, $nombre!"
 
 Estructura condicional para tomar decisiones.
 
-\```bash
+```bash
 if [ condición ]; then
     # código si la condición es verdadera
 else
     # código si la condición es falsa
 fi
-\```
+```
 
 ### `for`
 
 Bucle que recorre una lista de elementos.
 
-\```bash
+```bash
 for i in elemento1 elemento2 elemento3; do
     # código a ejecutar para cada elemento
 done
-\```
+```
 
 ### `while`
 
 Bucle que se ejecuta mientras una condición sea verdadera.
 
-\```bash
+```bash
 while [ condición ]; do
     # código a ejecutar mientras la condición sea verdadera
 done
-\```
+```
 
 Este resumen proporciona una introducción básica a los comandos y operadores más comunes en Bash. Para obtener más detalles y opciones, consulta la documentación oficial de Bash o utiliza el comando `man` seguido del nombre del comando para acceder al manual de cada comando.
