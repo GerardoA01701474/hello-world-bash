@@ -3,7 +3,7 @@
 Bash (Bourne Again SHell) es un intérprete de comandos y un lenguaje de scripting utilizado en sistemas operativos Unix y Unix-like, incluyendo Linux. Permite a los usuarios interactuar con el sistema operativo mediante comandos y scripts.
 
 ## Comandos Básicos
-___
+
 ### `echo`
 
 Muestra mensajes en la salida estándar.
