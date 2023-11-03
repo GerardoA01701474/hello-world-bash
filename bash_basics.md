@@ -130,12 +130,77 @@ Ordena las líneas del archivo `archivo.txt` y muestra el resultado en la salida
 #### `unique`
 
 Filtra líneas duplicadas consecutivas de un archivo o entrada estándar.
+Con el dash -c cuenta las veces que se repite cada valor unico.
 
 ```bash
 unique archivo.txt
 ```
 
 Muestra solo las líneas únicas del archivo `archivo.txt`, eliminando duplicados consecutivos.
+
+### Comandos y Símbolos Adicionales de Bash
+
+#### `grep`
+
+Busca patrones en archivos o entrada estándar y muestra las líneas que coinciden.
+
+```bash
+grep "patrón" archivo.txt
+```
+
+Busca el "patrón" en el archivo `archivo.txt` y muestra las líneas que coinciden.
+
+#### `*`
+
+Comodín que coincide con cualquier cadena de caracteres.
+
+```bash
+ls *.txt
+```
+
+Muestra todos los archivos con extensión `.txt` en el directorio actual.
+
+#### `?`
+
+Comodín que coincide con un solo carácter.
+
+```bash
+ls archivo?.txt
+```
+
+Muestra archivos como `archivo1.txt`, `archivoA.txt`, etc.
+
+#### `.`
+
+Representa el directorio actual.
+
+```bash
+cp archivo.txt .
+```
+
+Copia el archivo `archivo.txt` al directorio actual.
+
+#### `..`
+
+Representa el directorio padre.
+
+```bash
+cd ..
+```
+
+Cambia al directorio padre del directorio actual.
+
+#### `~`
+
+Representa el directorio de inicio del usuario.
+
+```bash
+cd ~/Documentos
+```
+
+Cambia al directorio `Documentos` en el directorio de inicio del usuario.
+
+Estos comandos y símbolos adicionales son útiles en Bash para realizar diversas operaciones y manipulaciones de archivos y directorios. Puedes explorar más sobre estos y otros comandos en la documentación oficial de Bash o en recursos de aprendizaje en línea.
 
 
 Este resumen proporciona una introducción básica a los comandos y operadores más comunes en Bash. Para obtener más detalles y opciones, consulta la documentación oficial de Bash o utiliza el comando `man` seguido del nombre del comando para acceder al manual de cada comando.
