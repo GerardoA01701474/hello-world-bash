@@ -16,9 +16,9 @@ echo "Hello, World!"
 
 Establece variables de entorno para que estén disponibles para los procesos secundarios.
 
-\```bash
-export VARIABLE="Valor"
-\```
+    \```bash
+    export VARIABLE="Valor"
+    \```
 
 ### `cd`
 
