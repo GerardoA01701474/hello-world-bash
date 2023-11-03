@@ -117,4 +117,25 @@ while [ condición ]; do
 done
 ```
 
+#### `sort`
+
+Ordena líneas de texto de un archivo o entrada estándar.
+
+```bash
+sort archivo.txt
+```
+
+Ordena las líneas del archivo `archivo.txt` y muestra el resultado en la salida estándar.
+
+#### `unique`
+
+Filtra líneas duplicadas consecutivas de un archivo o entrada estándar.
+
+```bash
+unique archivo.txt
+```
+
+Muestra solo las líneas únicas del archivo `archivo.txt`, eliminando duplicados consecutivos.
+
+
 Este resumen proporciona una introducción básica a los comandos y operadores más comunes en Bash. Para obtener más detalles y opciones, consulta la documentación oficial de Bash o utiliza el comando `man` seguido del nombre del comando para acceder al manual de cada comando.
