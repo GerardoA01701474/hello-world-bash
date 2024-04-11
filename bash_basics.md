@@ -37,6 +37,13 @@ Redirige la salida de un comando a un archivo (sobrescribe el archivo existente)
 ```bash
 echo "Contenido del archivo" > archivo.txt
 ```
+### `&>`
+
+Redirige el standard error and the standard output to the same place.
+
+```bash
+echo "Contenido del archivo" &> archivo.txt
+```
 ___
 ### `>>`
 
