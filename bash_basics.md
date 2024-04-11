@@ -32,7 +32,7 @@ cd /ruta/al/directorio
 ___
 ### `>`
 
-Redirige la salida de un comando a un archivo (sobrescribe el archivo existente).
+Redirige la salida de un comando a un archivo (sobrescribe el archivo existente) standard output.
 
 ```bash
 echo "Contenido del archivo" > archivo.txt
@@ -48,7 +48,7 @@ echo "Nuevo contenido" >> archivo.txt
 ___
 ### `<`
 
-Redirige algo a la entrada de un comando.
+Redirige algo a la entrada de un comando (standard input).
 
 ```bash
 cat < archivo.txt
