@@ -46,6 +46,15 @@ Redirige la salida de un comando a un archivo (agrega al final del archivo).
 echo "Nuevo contenido" >> archivo.txt
 ```
 ___
+### `<`
+
+Redirige algo a la entrada de un comando.
+
+```bash
+cat < archivo.txt
+```
+imprimira el archivo
+___
 ### `|`
 
 Tubería (pipe). Permite enviar la salida de un comando como entrada a otro comando.
